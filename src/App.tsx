@@ -1,5 +1,17 @@
-const App = () => {
-  return <div>App</div>
-}
+// Internal Dependencies
+import { Footer } from "./components/Footer";
+import { Logo } from "./components/Logo/Logo";
 
-export default App;
+import styles from "./App.module.css";
+
+export const App = () => {
+  return (
+    <div className={styles.app}>
+      <Logo />
+      <main className={styles.content}>
+        <p>Helo</p>
+      </main>
+      <Footer />
+    </div>
+  );
+};
