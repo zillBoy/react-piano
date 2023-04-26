@@ -1,6 +1,6 @@
 // Internal Dependencies
 import { Footer } from './components/Footer'
-import { Logo } from './components/Logo';
+import { Logo } from './components/Logo/Logo';
 
 import styles from './App.module.css'
 
