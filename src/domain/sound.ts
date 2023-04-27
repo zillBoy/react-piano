@@ -1,9 +1,9 @@
 // External Dependencies
-import { InstrumentName } from "soundfont-player";
+import { InstrumentName, Player } from "soundfont-player";
+
+// Internal Dependencies
+import { MidiValue } from "./note";
+import { Optional } from "./types";
 
 export const DEFAULT_INSTRUMENT: InstrumentName = "acoustic_grand_piano";
-
-// Adapter or Provider Pattern
-
-// allows the interface of an existing entity (class, service, etc) to be used as another interface.
-// It adapts (pr provides) a third-party API for us and makes it usable in our application code.
+export type AudioNodesRegistry = Record<MidiValue, Optional<Player>>;
