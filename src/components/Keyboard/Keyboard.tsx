@@ -1,5 +1,3 @@
-// React Dependencies
-
 // Internal Dependencies
 import { selectKey } from "../../domain/keyboard";
 import { notes } from "../../domain/note";

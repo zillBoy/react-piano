@@ -71,5 +71,3 @@ export function generateNotes({
 }
 
 export const notes = generateNotes();
-
-// Audio API -> AudioContext (music tracks and create oscilattors)
