@@ -1,6 +1,7 @@
 // Internal Dependencies
 import { Footer } from "./components/Footer";
 import { Logo } from "./components/Logo/Logo";
+import { Main } from "./components/Main";
 
 import styles from "./App.module.css";
 
@@ -9,7 +10,7 @@ export const App = () => {
     <div className={styles.app}>
       <Logo />
       <main className={styles.content}>
-        <p>Helo</p>
+        <Main />
       </main>
       <Footer />
     </div>
